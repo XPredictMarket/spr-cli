@@ -12,6 +12,7 @@ pub struct Payload<Public> {
 	pub proposal_id: u32,
 	pub result: u32,
 	pub public: Public,
+	pub vote_num: u128,
 }
 
 #[derive(Clone, Debug, Eq, PartialEq, Call, Encode)]
